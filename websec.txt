@@ -1,7 +1,0 @@
-Hệ injection 
-los.rubiya.kr clear thì trình khá cao
-portswigger.net kinh thánh của người chơi web
-root0x00.altervista.org/sqli môn bảo mật web và ứng dụng
-root-me.org tập đọc, vỡ lòng
-zixem.altervista.org/sqli khó
- 
