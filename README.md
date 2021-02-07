@@ -1,2 +1,2 @@
-# Nơi tình yêu bắt đầu
-Tôi sẽ bắt đầu học từ hôm nay!
+# WHERE LOVE BEGIN
+I'll start learning from today!
