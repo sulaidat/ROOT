@@ -1,0 +1,1 @@
+1. write an embedded php file that display(insert to the original page, not redirect to .php) data reeceived from a form submitted with post method
