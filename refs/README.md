@@ -1,6 +1,9 @@
 # cURL POST examples
 ## Common Options
 
+`-A, --user-agent`
+        Change user-agent.
+
 `-#, --progress-bar`
         Make curl display a simple progress bar instead of the more informational standard meter.
 
