@@ -1,0 +1,28 @@
+<script>
+	var create_letter = function(from, return_addr, name, addr, message) {
+		var letter = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>";
+		letter += "<letter>";
+		letter += "<from>" + from + "</from>";
+		letter += "<return_addr>" + return_addr + "</return_addr>";
+		letter += "<name>" + name + "</name>";
+		letter += "<addr>" + addr + "</addr>";
+		letter += "<message>" + message + "</message>";
+		letter += "</letter>";
+		
+		return letter;
+	}
+	
+	var send = function() {
+		var your_name = $('#your_name').val();
+		var return_addr = $('#return_addr').val();
+		var recipient_name = $('#recipient_name').val();
+		var recipient_addr = $('#recipient_address').val();
+		var message = $('#message').val();
+		
+		var letter = create_letter(your_name, return_addr, recipient_name, recipient_addr, message);
+		
+		$.get("send_letter.php?letter="+letter, function(data, status){
+			alert("Data: " + data + "\nStatus: " + status);
+		});
+	}
+</script>
